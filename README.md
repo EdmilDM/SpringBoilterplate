@@ -2,7 +2,7 @@
 
 This is a boilerplate project to kickstart my Spring Boot projects with a lot of the functionality I use and need, this serves as a base project to expand my REST APIs from.
 
-Comes with basic models, repositories and controllers as examples on how to work with them.
+Comes with basic models, repositories, controllers and tests as examples on how to work with them. 
 
 ## Technologies
 
@@ -115,4 +115,4 @@ If you want to use docker, you must have it installed. Running this application 
 
 ```docker build -t edmil/boilerplate .``` builds the image based on the Dockerfile of the project.
 
-```docker run -p 8080:8080 -t edmil/boilerplate ``` runs a container with the specified image (edmil/boilerplate in this case, which me created in the last step).
+```docker run -p 8080:8080 -t edmil/boilerplate ``` runs a container with the specified image (edmil/boilerplate in this case, which we created in the last step).
